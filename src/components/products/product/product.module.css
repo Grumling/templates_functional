@@ -1,0 +1,76 @@
+.product {
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 300px;
+  margin-bottom: 10px;
+  color: #000;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.product img {
+  border-bottom: 6px pink solid;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.product .details {
+  padding: 10px 20px 15px 10px;
+  height: 80px;
+}
+
+.product h3 {
+  font-size: 22px;
+}
+
+.product .actions .price {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.product .actions .btn {
+  font-size: 18px;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 10px;
+}
+.product .fbBtn {
+  font-size: 12px;
+  padding: 0 4px;
+  height: 30px;
+  width: 80px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.product .fbBtn:hover {
+  background-color: #2e2e2e;
+}
+
+.product .fbBtn:active {
+  transform: translate(0, 1px);
+  border: solid 1px pink;
+}
+
+.buyProductInputField {
+  border: none;
+  background: black;
+  padding: 0px 4px;
+  height: 30px;
+  font-weight: 800;
+  width: 60px;
+  border-radius: 5px;
+  margin-left: 5px;
+  text-align: center;
+}

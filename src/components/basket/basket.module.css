@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container img {
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.container h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  display: grid;
+  place-content: center;
+}
+
+.totalPrice {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.productBasketInfo {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.basketItemWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-bottom: solid 2px var(--main-pink-color);
+  margin-bottom: 16px;
+}
